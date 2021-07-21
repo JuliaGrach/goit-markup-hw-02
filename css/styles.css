@@ -1,0 +1,266 @@
+:root {
+  --accent-color: #2196f3;
+  --main-text-color: #212121;
+  --main-backgraund-color: #e5e5e5;
+  --logo-accent-color: #000000;
+  --description-color: #757575;
+  --hero-backgraund-color: #2f303a;
+  --title-color: #ffffff;
+  --adress-color: rgba(255, 255, 255, 0.6);
+  --filtr-button-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-backgraund-color);
+}
+
+/* header */
+.header {
+}
+.navigation {
+}
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--logo-accent-color);
+}
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.nav-list-item {
+}
+.nav-list-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
+.adress-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.adress-list-item {
+}
+.adress-list-link {
+  text-decoration: none;
+  color: var(--description-color);
+}
+.adress-list-link:hover,
+.adress-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+.main {
+}
+/* hero */
+.hero {
+  background-color: var(--hero-backgraund-color);
+  text-align: center;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+.hero-but {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* особенности */
+.about {
+}
+.about-title {
+  visibility: hidden;
+}
+.about-list {
+  list-style: none;
+}
+.about-list-item {
+}
+.about-list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.about-list-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--description-color);
+}
+.works {
+}
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.works-list {
+  list-style: none;
+}
+.works-list-item {
+}
+.works-list-img {
+}
+.team {
+}
+
+/* team-title=works-title */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list {
+  list-style: none;
+}
+.team-list-item {
+}
+.team-list-img {
+}
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
+.team-list-description {
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+
+  color: var(--description-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--hero-backgraund-color);
+}
+.footer-adress {
+}
+.footer-adress-list {
+  list-style: none;
+}
+.footer-adress-list-item {
+}
+.footer-adress-map-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: var(--title-color);
+}
+.footer-adress-map-link:hover,
+.footer-adress-map-link:focus,
+.footer-adress-link:focus,
+.footer-adress-link:hover {
+  color: var(--accent-color);
+}
+.footer-adress-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--adress-color);
+}
+.logo-accent-light {
+  color: var(--title-color);
+}
+
+/* Portfolio */
+/* main */
+.portfolio-main {
+}
+.portfolio-list {
+}
+.filter-list-btn {
+}
+.filter-btn {
+  cursor: pointer;
+  background-color: var(--filtr-button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.filter-btn:focus,
+.filter-btn:hover {
+  color: var(--title-color);
+  background-color: var(--accent-color);
+}
+
+.filter-list-item {
+  list-style: none;
+}
+
+.portf-projects-list {
+  list-style: none;
+}
+.portf-projects-list-item {
+}
+.portf-projects-list-link {
+  text-decoration: none;
+}
+.portf-projects-img {
+}
+.portf-projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.portf-projects-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
