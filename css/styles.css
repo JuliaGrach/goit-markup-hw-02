@@ -8,12 +8,12 @@
   --title-color: #ffffff;
   --adress-color: rgba(255, 255, 255, 0.6);
   --filtr-button-color: #f5f4fa;
+  --hero-but-hover-color: #188ce8;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
-  background-color: var(--main-backgraund-color);
 }
 
 /* header */
@@ -45,6 +45,9 @@ body {
 .nav-list-link {
   text-decoration: none;
   color: var(--main-text-color);
+}
+.on-page {
+  color: var(--accent-color);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
@@ -98,6 +101,10 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+.hero-but:hover,
+.hero-but:focus {
+  background-color: var(--hero-but-hover-color);
+}
 
 /* особенности */
 .about {
@@ -141,6 +148,7 @@ body {
 .works-list-img {
 }
 .team {
+  background-color: #f5f4fa;
 }
 
 /* team-title=works-title */
