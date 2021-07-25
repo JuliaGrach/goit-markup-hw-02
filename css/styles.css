@@ -148,7 +148,7 @@ body {
 .works-list-img {
 }
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--filtr-button-color);
 }
 
 /* team-title=works-title */
@@ -163,6 +163,7 @@ body {
   list-style: none;
 }
 .team-list-item {
+  background-color: var(--title-color);
 }
 .team-list-img {
 }
